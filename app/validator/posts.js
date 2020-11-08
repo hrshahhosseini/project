@@ -13,10 +13,10 @@ const createPost = [
             })
         }
         next()
-    },
-    function (req, res, next) {
-        console.log('hi')
-        next()
     }
+    // function (req, res, next) {
+    //     console.log('hi')
+    //     next()
+    // }
 ]
 module.exports = { createPost }

@@ -18,10 +18,11 @@
     "express-mysql-session": "^2.1.4",
     "express-session": "^1.17.1",
     "express-validator": "^6.6.1",
+    "fastest-validator": "^1.8.0",
     "gravatar": "^1.8.1",
     "jalali-moment": "^3.3.8",
     "mysql2": "^2.2.5",
-    "nodemon": "^2.0.4",
+    "nodemon": "^2.0.6",
     "uuid": "^8.3.1"
   }
 }

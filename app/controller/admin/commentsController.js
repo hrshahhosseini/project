@@ -2,8 +2,8 @@ const commentModel = require('../../model/admin/commentsmodel')
 class CommentController {
     constructor() { }
     async comments(req, res) {
+        req.session.view = 1;
         const comment = await commentModel.findAll()
-        console.log("CommentController -> comments -> comment", comment)
         res.render('admin/comments/index', { layout: 'admin' , comment })
     }
 }

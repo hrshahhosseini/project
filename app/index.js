@@ -1,7 +1,6 @@
 const express = require('express');
 const application = express();
 require('./bootstrap').config(application);
-require('./bootstrap/index').setSession(application)
 require('./routes').myRouter(application)
 
 
